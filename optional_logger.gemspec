@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{Logger proxy to handle optionality of presence of a logger}
   spec.description   = %q{Logger proxy to handle optionality of presence of a logger}
-  spec.homepage      = "http://github.com/Acornsgrow/optional_logger"
+  spec.homepage      = "http://github.com/drewdeponte/optional_logger"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
@@ -21,7 +21,7 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
-  spec.add_development_dependency "bundler", "~> 1.13"
-  spec.add_development_dependency "rake", "~> 10.0"
-  spec.add_development_dependency "rspec", "~> 3.0"
+  spec.add_development_dependency "bundler", "~> 2.5"
+  spec.add_development_dependency "rake", "~> 13.2"
+  spec.add_development_dependency "rspec", "~> 3.13"
 end
